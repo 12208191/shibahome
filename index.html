@@ -173,24 +173,7 @@
       display: none;
     }
 
-    @media (max-width: 991.98px) {
 
-      .navbar [href="#collection-section"] span,
-      .navbar #nav-whatsapp span,
-      .navbar [href="tel:+85254068853"] span,
-      .navbar [href="https://www.facebook.com/shibahome.hk"] span {
-        display: none;
-      }
-
-      .navbar-brand {
-      position: absolute;
-      left: auto;
-      transform: none;
-      text-align: left;
-      margin-left: 0;
-    }
-
-    }
 
     .navbar.collapsed .navbar-nav {
       flex-direction: row;
@@ -213,7 +196,7 @@
     } */
 
     .introduction-section {
-      padding: 4rem 0;
+      padding: 2rem 0;
       background-color: #fff;
       /* text-align: center; */
     }
@@ -242,14 +225,18 @@
     }
 
     .card-img-top {
+      width: 100%;
+      /* height: 100%;200px; */
+      height: 100%;
+    }
+
+    /* .card-img-top {
       height: 380px;
       width: 100%;
       object-fit: cover;
-      /* Stretch to fill width, may crop height */
       background-color: #fff;
       padding: 0;
-      /* Remove padding to utilize full width */
-    }
+    } */
 
     .card-body {
       padding: 1rem 2rem;
@@ -296,7 +283,8 @@
     }
 
     .card-text a:hover {
-      background-color: #444;
+      color: #fff;
+      background-color: #063f1b;
     }
 
     .card-text a i {
@@ -371,10 +359,33 @@
       color: #dc3545;
     }
 
-    @media (max-width: 768px) {
-      body {
-        padding-top: 60px;
+    @media (max-width: 991.98px) {
+
+      .navbar [href="#collection-section"] span,
+      .navbar #nav-whatsapp span,
+      .navbar [href="tel:+85254068853"] span,
+      .navbar [href="https://www.facebook.com/shibahome.hk"] span {
+        display: none;
       }
+
+      .navbar-brand {
+        position: absolute;
+        left: auto;
+        transform: none;
+        text-align: left;
+        margin-left: 0;
+      }
+
+      .card {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 768px) {
+      /* body {
+        padding-top: 60px;
+      } */
 
 
       /* .navbar [href="#collection-section"] span,
@@ -464,7 +475,6 @@
 
       /* Adjust padding on mobile */
     }
-    
   </style>
 </head>
 
@@ -525,278 +535,299 @@
       <div class="row">
 
         <div class="col-12 mb-4">
-          <div class="row"><h5 class="card-title">黑柴屋寵物尿片 [皇牌產品]</h5></div>
-          <div class="card d-flex flex-row">
-            <div class="col-4">
+          <div class="row">
+            <h5 class="card-title">黑柴屋寵物尿片 [皇牌產品]</h5>
+          </div>
+          <!-- <div class="card d-flex flex-row">  -->
+          <div class="card d-flex">
+            <div class="col-12 col-lg-4">
               <img src="image/product_pad.jpg" class="card-img-top" alt="黑柴屋寵物尿片">
             </div>
-            <div class="col-8 card-body">
-              <!-- <h5 class="card-title">黑柴屋寵物尿片 [皇牌產品]</h5> -->
-              <p class="card-text">
-                <!-- 🎉🎉 <strong>黑柴屋寵物尿片</strong>：<br> -->
-                黑柴屋寵物尿片今次大更新到 <span class="highlight">3.0款</span>，我地將現有的吸水珠全面提升為<span
-                  class="highlight">人用級數</span>的日本住友高倍數吸水因子SAP，比之前更加吸水。另外，我地更將膠底改為網紋，令到尿片更加防漏防滑。<br><br>
-                @@由於我地的尿片係工廠直接生產，所以如果大家有任何提意，都可以同我地講，我地會按大家的意見作出合適的改良，謝謝<br><br>
-                🐶🐶 <strong>黑柴屋寵物尿片👍👍</strong><br>
-                大家注意，現時市面上出現了很多使用了<span
-                  class="safety">受污染材料</span>（例如回收木漿）所生產的尿片，特別是一些平價或淘寶賣的尿片，寵物不小心咬到或食到會好危險。客戶購買時最好問清楚佢地是用什麼原材料。為了令客戶可以安心使用，黑柴屋決定將我們尿片的詳細資料提供給大家作參考與比較，以保障我們的客戶。<br><br>
-                黑柴屋寵物尿片是由工廠直接生產，木漿及吸水因子等材料均由美國日本進口，令🐶🐱使用時能夠更安全及衛生。<br><br>
-                <!-- <ul class="size-list">
+            <div class="col-12 col-lg-8">
+              <div class="card-body">
+                <!-- <h5 class="card-title">黑柴屋寵物尿片 [皇牌產品]</h5> -->
+                <p class="card-text">
+                  <!-- 🎉🎉 <strong>黑柴屋寵物尿片</strong>：<br> -->
+                  黑柴屋寵物尿片今次大更新到 <span class="highlight">3.0款</span>，我地將現有的吸水珠全面提升為<span
+                    class="highlight">人用級數</span>的日本住友高倍數吸水因子SAP，比之前更加吸水。另外，我地更將膠底改為網紋，令到尿片更加防漏防滑。<br><br>
+                  @@由於我地的尿片係工廠直接生產，所以如果大家有任何提意，都可以同我地講，我地會按大家的意見作出合適的改良，謝謝<br><br>
+                  🐶🐶 <strong>黑柴屋寵物尿片👍👍</strong><br>
+                  大家注意，現時市面上出現了很多使用了<span
+                    class="safety">受污染材料</span>（例如回收木漿）所生產的尿片，特別是一些平價或淘寶賣的尿片，寵物不小心咬到或食到會好危險。客戶購買時最好問清楚佢地是用什麼原材料。為了令客戶可以安心使用，黑柴屋決定將我們尿片的詳細資料提供給大家作參考與比較，以保障我們的客戶。<br><br>
+                  黑柴屋寵物尿片是由工廠直接生產，木漿及吸水因子等材料均由美國日本進口，令🐶🐱使用時能夠更安全及衛生。<br><br>
+                  <!-- <ul class="size-list">
                 <li>S/100pcs/33 x 45cm</li>
                 <li>M/50pcs/45 x 60cm</li>
                 <li>L/40pcs/60 x 60cm</li>
                 <li>XL/20pcs/60 x 90cm</li>
               </ul> -->
-              <table class="table table - striped">
-                <thead>
-                  <tr>
-                    <th>大小</th>
-                    <th>片數</th>
-                    <th>規格 (cm)</th>
-                    <th>高分子〈吸水因子〉</th>
-                    <th>顏色</th>
-                    <th>包装尺寸</th>
-                    <th>木漿</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>S</td>
-                    <td>100</td>
-                    <td>33*45</td>
-                    <td>日本 {2}</td>
-                    <td>藍色</td>
-                    <td>26*15*31</td>
-                    <td>美國進口</td>
-                  </tr>
-                  <tr>
-                    <td>M</td>
-                    <td>50</td>
-                    <td>45*60</td>
-                    <td>日本 {3}</td>
-                    <td>藍色</td>
-                    <td>20*15*40</td>
-                    <td>美國進口</td>
-                  </tr>
-                  <tr>
-                    <td>L</td>
-                    <td>40</td>
-                    <td>60*60</td>
-                    <td>日本 {4}</td>
-                    <td>藍色</td>
-                    <td>20*15*29</td>
-                    <td>美國進口</td>
-                  </tr>
-                  <tr>
-                    <td>XL</td>
-                    <td>20</td>
-                    <td>60*90</td>
-                    <td>日本 {5}</td>
-                    <td>藍色</td>
-                    <td>20*15*30</td>
-                    <td>美國進口</td>
-                  </tr>
-                </tbody>
-              </table>
-              <table class="table table - striped">
-                <thead>
-                  <tr>
-                    <th>五層</th>
-                    <th>生產技術要求</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>親肌無坊布</td>
-                    <td>不脫色，防漏底膜完好</td>
-                  </tr>
-                  <tr>
-                    <td>美國木漿，日本吸水因子</td>
-                    <td>無硬質塊，無破損</td>
-                  </tr>
-                  <tr>
-                    <td>雙層包附紙</td>
-                    <td>手感柔軟，封口牢固</td>
-                  </tr>
-                  <tr>
-                    <td>防漏PE底膜</td>
-                    <td>無滲漏，無滲出</td>
-                  </tr>
-                </tbody>
-              </table>
-              <br>
-              <div class="row">
-                <div class="col-6">
-                  <p class="card-text price-text rounded">
-                    限時優惠: <br><strong>$230</strong> /4包<br>
-                    義工優惠: <br>買8送1 / 買10送2
-                  </p>
-                </div>
-                <div class="col-6">
-                  <p class="card-text text-end"><a
-                      href="https://wa.me/85226466488?text=%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%83%B3%E8%B3%BC%E8%B2%B7%E5%B0%BF%E7%89%87%E3%80%82%E5%A4%A7%E5%B0%8F%3A%20%20%20%E6%95%B8%E9%87%8F%3A"
-                      class="btn"><i class="bi bi-whatsapp"></i>
-                      Whatsapp
-                      落單</a></p>
+                <table class="table table - striped">
+                  <thead>
+                    <tr>
+                      <th>大小</th>
+                      <th>片數</th>
+                      <th>規格 (cm)</th>
+                      <th>高分子〈吸水因子〉</th>
+                      <th>顏色</th>
+                      <th>包装尺寸</th>
+                      <th>木漿</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>S</td>
+                      <td>100</td>
+                      <td>33*45</td>
+                      <td>日本 {2}</td>
+                      <td>藍色</td>
+                      <td>26*15*31</td>
+                      <td>美國進口</td>
+                    </tr>
+                    <tr>
+                      <td>M</td>
+                      <td>50</td>
+                      <td>45*60</td>
+                      <td>日本 {3}</td>
+                      <td>藍色</td>
+                      <td>20*15*40</td>
+                      <td>美國進口</td>
+                    </tr>
+                    <tr>
+                      <td>L</td>
+                      <td>40</td>
+                      <td>60*60</td>
+                      <td>日本 {4}</td>
+                      <td>藍色</td>
+                      <td>20*15*29</td>
+                      <td>美國進口</td>
+                    </tr>
+                    <tr>
+                      <td>XL</td>
+                      <td>20</td>
+                      <td>60*90</td>
+                      <td>日本 {5}</td>
+                      <td>藍色</td>
+                      <td>20*15*30</td>
+                      <td>美國進口</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table class="table table - striped">
+                  <thead>
+                    <tr>
+                      <th>五層</th>
+                      <th>生產技術要求</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>親肌無坊布</td>
+                      <td>不脫色，防漏底膜完好</td>
+                    </tr>
+                    <tr>
+                      <td>美國木漿，日本吸水因子</td>
+                      <td>無硬質塊，無破損</td>
+                    </tr>
+                    <tr>
+                      <td>雙層包附紙</td>
+                      <td>手感柔軟，封口牢固</td>
+                    </tr>
+                    <tr>
+                      <td>防漏PE底膜</td>
+                      <td>無滲漏，無滲出</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br>
+                <div class="row">
+                  <div class="col-6">
+                    <p class="card-text price-text rounded">
+                      限時優惠: <br><strong>$230</strong> /4包<br>
+                      義工優惠: <br>買8送1 / 買10送2
+                    </p>
+                  </div>
+                  <div class="col-6">
+                    <p class="card-text text-end"><a
+                        href="https://wa.me/85226466488?text=%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%83%B3%E8%B3%BC%E8%B2%B7%E5%B0%BF%E7%89%87%E3%80%82%E5%A4%A7%E5%B0%8F%3A%20%20%20%E6%95%B8%E9%87%8F%3A"
+                        class="btn"><i class="bi bi-whatsapp"></i>
+                        Whatsapp
+                        落單</a></p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-12 mb-4">
-          <div class="row"><h5 class="card-title">黑柴屋草本植物貓砂 6L</h5></div>
-          <div class="card d-flex flex-row">
-            <div class="col-4">
+          <div class="row">
+            <h5 class="card-title">黑柴屋草本植物貓砂 6L</h5>
+          </div>
+          <div class="card d-flex">
+            <div class="col-12 col-lg-4">
               <img src="image/product_sand.jpg" class="card-img-top" alt="黑柴屋草本植物貓砂">
             </div>
-            <div class="col-8 card-body">
-              <!-- <h5 class="card-title">黑柴屋草本植物貓砂 6L</h5> -->
-              <p class="card-text">
-                <!-- 🎉🎉 <strong>黑柴屋草本植物貓砂</strong>：<br> -->
-                經過4年辛苦的籌備，黑柴屋純天然草本植物貓砂終於推出啦。👍純天然草本植物，獨特的植物纖維結構可快速吸收水份。天然除臭，可以有效抑制細菌滋生，不含任何化學物質和工業成分，不為追求顏色和味道，不添加任何色素和香精，純天然。
-                <br><br>
-                草本植物貓砂也是一種豆腐貓砂,而我們的草本植物貓砂是講大量的草本植物代替碳酸鈣的環節從使貓砂更輕量化純天然對貓咪更友善<br>
+            <div class="col-12 col-lg-8">
+              <div class="card-body">
 
-              </p>
-              <div class="row">
-                <div class="col-6">
-                  <p class="card-text price-text rounded">
-                    限時優惠:<br>
-                    <strong>$150</strong> /4包<br>
-                    <strong>$230</strong> /8包 (一箱)
+                <!-- <h5 class="card-title">黑柴屋草本植物貓砂 6L</h5> -->
+                <p class="card-text">
+                  <!-- 🎉🎉 <strong>黑柴屋草本植物貓砂</strong>：<br> -->
+                  經過4年辛苦的籌備，黑柴屋純天然草本植物貓砂終於推出啦。👍純天然草本植物，獨特的植物纖維結構可快速吸收水份。天然除臭，可以有效抑制細菌滋生，不含任何化學物質和工業成分，不為追求顏色和味道，不添加任何色素和香精，純天然。
+                  <br><br>
+                  草本植物貓砂也是一種豆腐貓砂,而我們的草本植物貓砂是講大量的草本植物代替碳酸鈣的環節從使貓砂更輕量化純天然對貓咪更友善<br>
 
-                  </p>
-                </div>
-                <div class="col-6">
-                  <p class="card-text text-end">
-                    <a href="https://wa.me/85226466488?text=%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%83%B3%E8%B3%BC%E8%B2%B7%E8%B2%93%E7%A0%82%E3%80%82%E6%95%B8%E9%87%8F%3A%20%20%20%E5%8C%85"
-                      class="btn"><i class="bi bi-whatsapp"></i>
-                      Whatsapp
-                      落單</a>
-                  </p>
+                </p>
+                <div class="row">
+                  <div class="col-6">
+                    <p class="card-text price-text rounded">
+                      限時優惠:<br>
+                      <strong>$150</strong> /4包<br>
+                      <strong>$230</strong> /8包 (一箱)
+
+                    </p>
+                  </div>
+                  <div class="col-6">
+                    <p class="card-text text-end">
+                      <a href="https://wa.me/85226466488?text=%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%83%B3%E8%B3%BC%E8%B2%B7%E8%B2%93%E7%A0%82%E3%80%82%E6%95%B8%E9%87%8F%3A%20%20%20%E5%8C%85"
+                        class="btn"><i class="bi bi-whatsapp"></i>
+                        Whatsapp
+                        落單</a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col-12 mb-4">
-          <div class="row"><h5 class="card-title">[台灣製造]黑柴屋驅蟲地板清潔劑（薰衣草味）500ml</h5></div>
           <div class="row">
-          <div class="card d-flex flex-row">
-            <div class="col-4">
-              <img src="image/product_cleaner.jpg" class="card-img-top" alt="黑柴屋驅蟲地板清潔劑">
-            </div>
-            <div class="col-8 card-body">
-              <!-- <h5 class="card-title">[台灣製造]黑柴屋驅蟲地板清潔劑（薰衣草味）500ml</h5> -->
-              <p class="card-text">
-                <!-- 🎉🎉 <strong>黑柴屋草本植物貓砂</strong>：<br> -->
-                黑柴屋聯同台灣天米生技用左1年時間研發，黑柴屋驅蟲地板清潔劑終於面世喇。我哋選用咗對 寵物及嬰兒友善及環保成分的配方 ，冇毒性，冇刺激，可以驅趕害蟲及去除異味。
-                <br>
-                用途：清潔去污，地板亮澤，有效消除異味及細菌。
-                <br>
-                稀釋比例1：100（一般地板）
-                <br>
-                稀釋比例1：200（木質地板）
-                <br>
-                非常適合寵物和小朋友的家庭
-                <br>
-                無需沖洗，無毒，無殘留物
-                <br>
-              </p>
-              <div class="row">
-                <div class="col-6">
-                  <p class="card-text price-text rounded">
-                    試用價:<br>
-                    <strong>$80</strong> /1支<br>
-                    <strong>$100</strong> /2支
+            <h5 class="card-title">[台灣製造]黑柴屋驅蟲地板清潔劑（薰衣草味）500ml</h5>
+          </div>
+          <div class="row">
+            <div class="card d-flex">
+              <div class="col-12 col-lg-4">
+                <img src="image/product_cleaner.jpg" class="card-img-top" alt="黑柴屋驅蟲地板清潔劑">
+              </div>
+              <div class="col-12 col-lg-8">
+                <div class="card-body">
+                  <!-- <h5 class="card-title">[台灣製造]黑柴屋驅蟲地板清潔劑（薰衣草味）500ml</h5> -->
+                  <p class="card-text">
+                    <!-- 🎉🎉 <strong>黑柴屋草本植物貓砂</strong>：<br> -->
+                    黑柴屋聯同台灣天米生技用左1年時間研發，黑柴屋驅蟲地板清潔劑終於面世喇。我哋選用咗對 寵物及嬰兒友善及環保成分的配方 ，冇毒性，冇刺激，可以驅趕害蟲及去除異味。
+                    <br>
+                    用途：清潔去污，地板亮澤，有效消除異味及細菌。
+                    <br>
+                    稀釋比例1：100（一般地板）
+                    <br>
+                    稀釋比例1：200（木質地板）
+                    <br>
+                    非常適合寵物和小朋友的家庭
+                    <br>
+                    無需沖洗，無毒，無殘留物
+                    <br>
+                  </p>
+                  <div class="row">
+                    <div class="col-6">
+                      <p class="card-text price-text rounded">
+                        試用價:<br>
+                        <strong>$80</strong> /1支<br>
+                        <strong>$100</strong> /2支
 
-                  </p>
-                </div>
-                <div class="col-6">
-                  <p class="card-text text-end">
-                    <a href="https://wa.me/85226466488?text=%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%83%B3%E8%B3%BC%E8%B2%B7%E5%9C%B0%E6%9D%BF%E6%B8%85%E6%BD%94%E5%8A%91%E3%80%82%E6%95%B8%E9%87%8F%3A%20%20%20%E6%94%AF"
-                      class="btn"><i class="bi bi-whatsapp"></i>
-                      Whatsapp
-                      落單</a>
-                  </p>
+                      </p>
+                    </div>
+                    <div class="col-6">
+                      <p class="card-text text-end">
+                        <a href="https://wa.me/85226466488?text=%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%83%B3%E8%B3%BC%E8%B2%B7%E5%9C%B0%E6%9D%BF%E6%B8%85%E6%BD%94%E5%8A%91%E3%80%82%E6%95%B8%E9%87%8F%3A%20%20%20%E6%94%AF"
+                          class="btn"><i class="bi bi-whatsapp"></i>
+                          Whatsapp
+                          落單</a>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
-        </div>
 
         <div class="col-12 mb-4">
-          <div class="row"><h5 class="card-title">[台灣製造]黑柴屋寵物防敏沐浴露（白茶花味）500ml</h5></div>
-          <div class="card d-flex flex-row">
-            <div class="col-4">
+          <div class="row">
+            <h5 class="card-title">[台灣製造]黑柴屋寵物防敏沐浴露（白茶花味）500ml</h5>
+          </div>
+          <div class="card d-flex">
+            <div class="col-12 col-lg-4">
               <img src="image/product_shampoo.jpg" class="card-img-top" alt="黑柴屋寵物防敏沐浴露">
             </div>
-            <div class="col-8 card-body">
-              <!-- <h5 class="card-title">[台灣製造]黑柴屋寵物防敏沐浴露（白茶花味）500ml</h5> -->
-              <p class="card-text">
-                <!-- 🎉🎉 <strong>黑柴屋草本植物貓砂</strong>：<br> -->
-                黑柴屋寵物防敏沖涼液終於面世喇。我哋選用咗對寵物防敏成分的配方 ，能有效除異味，去污垢，易沖洗，天然抗菌及能改善毛髮柔順度。 <br>
-                用途：清潔去污，地板亮澤，有效消除異味及細菌。
-              </p>
-              <div class="row">
-                <div class="col-6">
-                  <p class="card-text price-text rounded">
-                    試用價:<br>
-                    <strong>$80</strong> /1支<br>
-                    <strong>$100</strong> /2支
+            <div class="col-12 col-lg-8">
+              <div class="card-body">
 
-                  </p>
-                </div>
-                <div class="col-6">
-                  <p class="card-text text-end">
-                    <a href="https://wa.me/85226466488?text=%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%83%B3%E8%B3%BC%E8%B2%B7%E9%98%B2%E6%95%8F%E6%B2%90%E6%B5%B4%E9%9C%B2%E3%80%82%E6%95%B8%E9%87%8F%3A%20%20%20%E5%8C%85"
-                      class=" btn whatsapp-btn"><i class="bi bi-whatsapp"></i>
-                      Whatsapp
-                      落單</a>
-                  </p>
+                <!-- <h5 class="card-title">[台灣製造]黑柴屋寵物防敏沐浴露（白茶花味）500ml</h5> -->
+                <p class="card-text">
+                  <!-- 🎉🎉 <strong>黑柴屋草本植物貓砂</strong>：<br> -->
+                  黑柴屋寵物防敏沖涼液終於面世喇。我哋選用咗對寵物防敏成分的配方 ，能有效除異味，去污垢，易沖洗，天然抗菌及能改善毛髮柔順度。 <br>
+                  用途：清潔去污，地板亮澤，有效消除異味及細菌。
+                </p>
+                <div class="row">
+                  <div class="col-6">
+                    <p class="card-text price-text rounded">
+                      試用價:<br>
+                      <strong>$80</strong> /1支<br>
+                      <strong>$100</strong> /2支
+
+                    </p>
+                  </div>
+                  <div class="col-6">
+                    <p class="card-text text-end">
+                      <a href="https://wa.me/85226466488?text=%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%83%B3%E8%B3%BC%E8%B2%B7%E9%98%B2%E6%95%8F%E6%B2%90%E6%B5%B4%E9%9C%B2%E3%80%82%E6%95%B8%E9%87%8F%3A%20%20%20%E5%8C%85"
+                        class=" btn whatsapp-btn"><i class="bi bi-whatsapp"></i>
+                        Whatsapp
+                        落單</a>
+                    </p>
+                  </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
         <div class="col-12 mb-4">
-          <div class="row"><h5 class="card-title">[台灣製造]黑柴屋寵物殺菌消毒除味噴霧（薰衣草味）500ml</h5></div>
-          <div class="card d-flex flex-row">
-            <div class="col-4">
+          <div class="row">
+            <h5 class="card-title">[台灣製造]黑柴屋寵物殺菌消毒除味噴霧（薰衣草味）500ml</h5>
+          </div>
+          <div class="card d-flex">
+            <div class="col-12 col-lg-4">
               <img src="image/product_spray.jpg" class="card-img-top" alt="黑柴屋寵物殺菌消毒除味噴霧">
             </div>
-            <div class="col-8 card-body">
-              <!-- <h5 class="card-title">[台灣製造]黑柴屋寵物殺菌消毒除味噴霧（薰衣草味）500ml</h5> -->
-              <p class="card-text">
-                <!-- 🎉🎉 <strong>黑柴屋草本植物貓砂</strong>：<br> -->
-                選用咗對 寵物及嬰兒友善成分的配方 ，冇毒性，冇刺激，適合於家庭環境殺菌，可迅速殺滅並抑制各種病原微生物，滅菌率高達99.999%。瞬間除去生活環境中的異味。
-                <br>
-                <br>
-                使用方法：直接噴灑於家中需要除菌及除味的物體表面或空間中。避免直接用於寵物皮膚或毛髮
-                <br>
-                非常適合寵物和小朋友的家庭
-              </p>
-              <div class="row">
-                <div class="col-6">
-                  <p class="card-text price-text rounded">
-                    試用價:<br>
-                    <strong>$80</strong> /1支<br>
-                    <strong>$100</strong> /2支
+            <div class="col-12 col-lg-8">
+              <div class="card-body">
+                <!-- <h5 class="card-title">[台灣製造]黑柴屋寵物殺菌消毒除味噴霧（薰衣草味）500ml</h5> -->
+                <p class="card-text">
+                  <!-- 🎉🎉 <strong>黑柴屋草本植物貓砂</strong>：<br> -->
+                  選用咗對 寵物及嬰兒友善成分的配方 ，冇毒性，冇刺激，適合於家庭環境殺菌，可迅速殺滅並抑制各種病原微生物，滅菌率高達99.999%。瞬間除去生活環境中的異味。
+                  <br>
+                  <br>
+                  使用方法：直接噴灑於家中需要除菌及除味的物體表面或空間中。避免直接用於寵物皮膚或毛髮
+                  <br>
+                  非常適合寵物和小朋友的家庭
+                </p>
+                <div class="row">
+                  <div class="col-6">
+                    <p class="card-text price-text rounded">
+                      試用價:<br>
+                      <strong>$80</strong> /1支<br>
+                      <strong>$100</strong> /2支
 
-                  </p>
+                    </p>
+                  </div>
+                  <div class="col-6">
+                    <p class="card-text text-end"><a
+                        href="https://wa.me/85226466488?text=%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%83%B3%E8%B3%BC%E8%B2%B7%E6%AE%BA%E8%8F%8C%E6%B6%88%E6%AF%92%E9%99%A4%E5%91%B3%E5%99%B4%E9%9C%A7%E3%80%82%E6%95%B8%E9%87%8F%3A%20%20%20%E6%94%AF"
+                        class="btn"><i class="bi bi-whatsapp"></i>
+                        Whatsapp
+                        落單</a></p>
+                  </div>
                 </div>
-                <div class="col-6">
-                  <p class="card-text text-end"><a
-                      href="https://wa.me/85226466488?text=%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%83%B3%E8%B3%BC%E8%B2%B7%E6%AE%BA%E8%8F%8C%E6%B6%88%E6%AF%92%E9%99%A4%E5%91%B3%E5%99%B4%E9%9C%A7%E3%80%82%E6%95%B8%E9%87%8F%3A%20%20%20%E6%94%AF"
-                      class="btn"><i class="bi bi-whatsapp"></i>
-                      Whatsapp
-                      落單</a></p>
-                </div>
+
               </div>
-
             </div>
           </div>
         </div>
@@ -825,7 +856,7 @@
         <p>Whatsapp：<a href="https://wa.me/85264882646" target="_blank"><i class="bi bi-whatsapp"></i> 6488 2646</a></p>
         <p>地址：葵芳裕林工業大廈4樓</p>
       </div>
-      <p>Free shipping worldwide on all orders over $40</p>
+      <!-- <p>Free shipping</p> -->
     </div>
   </footer>
 
